@@ -48,7 +48,7 @@ when isMainModule:
 # but you can remove it if you wish.
 
 proc add*(x, y: int): int =
-  ## Adds two files together.
+  ## Adds two integers together.
   return x + y
 """
     )
@@ -176,3 +176,4 @@ requires "nim >= $#"
   )
 
   display("Info:", "Nimble file created successfully", priority=MediumPriority)
+  
